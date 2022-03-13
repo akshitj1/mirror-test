@@ -5,4 +5,4 @@ pipelines:
     - step:
         script:
           - ssh-keyscan github.com >> ~/.ssh/known_hosts
-          - git push --mirror -y git@github.com:akshitj1/mirror-test.git
+          - git push --mirror git@github.com:akshitj1/mirror-test.git
